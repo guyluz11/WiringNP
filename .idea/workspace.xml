@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2abdcb77-db76-4ec5-930a-f772787567bb" name="Default Changelist" comment="" />
+    <list default="true" id="2abdcb77-db76-4ec5-930a-f772787567bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tests" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/guyluz11/WiringNP.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1hYO2UbIjQ440tu2JooevmuQSnU" />
   <component name="PropertiesComponent">
@@ -29,18 +44,39 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="618" y="39" key="CommitChangelistDialog2" timestamp="1600184490097">
       <screen x="50" y="0" width="1870" height="1080" />
     </state>
     <state x="618" y="39" key="CommitChangelistDialog2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184490097" />
+    <state x="0" y="139" width="1678" height="894" key="DiffContextDialog" timestamp="1600245685957">
+      <screen x="0" y="15" width="1680" height="1050" />
+    </state>
+    <state x="0" y="139" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1600245685957" />
+    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600245139946" />
     <state x="581" y="260" key="Vcs.Push.Dialog.v2" timestamp="1600184512608">
       <screen x="50" y="0" width="1870" height="1080" />
     </state>
     <state x="581" y="260" key="Vcs.Push.Dialog.v2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184512608" />
-    <state x="648" y="260" width="818" height="622" key="find.popup" timestamp="1600184401791">
-      <screen x="50" y="0" width="1870" height="1080" />
+    <state x="2294" y="260" width="840" height="622" key="find.popup" timestamp="1600246214954">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
+    <state x="2294" y="260" width="840" height="622" key="find.popup/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246214954" />
     <state x="648" y="260" width="818" height="622" key="find.popup/50.0.1870.1080@50.0.1870.1080" timestamp="1600184401791" />
+    <state x="503" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1600245479457">
+      <screen x="0" y="15" width="1680" height="1050" />
+    </state>
+    <state x="503" y="240" width="672" height="678" key="search.everywhere.popup/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1600245479457" />
   </component>
 </project>
