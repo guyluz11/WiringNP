@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2abdcb77-db76-4ec5-930a-f772787567bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INSTALL" beforeDir="false" afterPath="$PROJECT_DIR$/INSTALL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/BProTest/lnIOBoard" beforeDir="false" afterPath="$PROJECT_DIR$/examples/BProTest/lnIOBoard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Gertboard/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Gertboard/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/PiFace/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PiFace/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/PiGlow/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PiGlow/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/q2w/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/q2w/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1hYO2UbIjQ440tu2JooevmuQSnU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -42,6 +53,21 @@
       <option name="presentableId" value="Default" />
       <updated>1600184351855</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding $SNAPCRAFT_PART_INSTALL to path">
+      <created>1600246234324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600246234324</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed double $SNAPCRAFT_PART_INSTALL text">
+      <created>1600246411036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600246411036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -49,32 +75,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding $SNAPCRAFT_PART_INSTALL to path" />
+    <MESSAGE value="Removed double $SNAPCRAFT_PART_INSTALL text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed double $SNAPCRAFT_PART_INSTALL text" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2263" y="39" key="CommitChangelistDialog2" timestamp="1600246234221">
+    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2" timestamp="1600246410982">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2263" y="39" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246234221" />
+    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246410982" />
     <state x="618" y="39" key="CommitChangelistDialog2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184490097" />
-    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog" timestamp="1600246369292">
+    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog" timestamp="1600246417822">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="139" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1600245685957" />
-    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246369292" />
-    <state x="2225" y="260" key="Vcs.Push.Dialog.v2" timestamp="1600246237383">
+    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246417822" />
+    <state x="2225" y="260" key="Vcs.Push.Dialog.v2" timestamp="1600246418792">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2225" y="260" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246237383" />
+    <state x="2225" y="260" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246418792" />
     <state x="581" y="260" key="Vcs.Push.Dialog.v2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184512608" />
-    <state x="2294" y="260" width="840" height="622" key="find.popup" timestamp="1600246380242">
+    <state x="2294" y="260" width="840" height="622" key="find.popup" timestamp="1600280933879">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2294" y="260" width="840" height="622" key="find.popup/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246380242" />
+    <state x="2294" y="260" width="840" height="622" key="find.popup/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600280933879" />
     <state x="648" y="260" width="818" height="622" key="find.popup/50.0.1870.1080@50.0.1870.1080" timestamp="1600184401791" />
     <state x="503" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1600245479457">
       <screen x="0" y="15" width="1680" height="1050" />
