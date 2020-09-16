@@ -29,7 +29,7 @@ CC	= gcc
 INCLUDE	= -I/usr/local/include
 CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe
 
-LDFLAGS	= -L/$SNAPCRAFT_PART_INSTALL/$SNAPCRAFT_PART_INSTALL/usr/lib
+LDFLAGS	= -L/$SNAPCRAFT_PART_INSTALL/usr/lib
 LDLIBS    = -lwiringPi -lwiringPiDev -lpthread -lm
 
 ###############################################################################
