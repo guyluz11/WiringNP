@@ -97,9 +97,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Removed $SNAPCRAFT_PART_INSTALL text" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2" timestamp="1600280970687">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="36" y="15" width="1878" height="1080" key="CommitChangelistDialog2" timestamp="1602443186704">
+      <screen x="0" y="15" width="1680" height="1050" />
     </state>
+    <state x="36" y="15" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1602443186704" />
     <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600280970687" />
     <state x="618" y="39" key="CommitChangelistDialog2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184490097" />
     <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog" timestamp="1600246417822">
@@ -112,9 +113,10 @@
     </state>
     <state x="2225" y="260" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600280968604" />
     <state x="581" y="260" key="Vcs.Push.Dialog.v2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184512608" />
-    <state x="2294" y="260" width="840" height="622" key="find.popup" timestamp="1600282059188">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="537" y="268" width="735" height="605" key="find.popup" timestamp="1602443191662">
+      <screen x="0" y="15" width="1680" height="1050" />
     </state>
+    <state x="537" y="268" width="735" height="605" key="find.popup/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1602443191662" />
     <state x="2294" y="260" width="840" height="622" key="find.popup/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600282059188" />
     <state x="648" y="260" width="818" height="622" key="find.popup/50.0.1870.1080@50.0.1870.1080" timestamp="1600184401791" />
     <state x="503" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1600245479457">
