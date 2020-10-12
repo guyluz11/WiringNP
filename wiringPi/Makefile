@@ -122,16 +122,16 @@ install-headers:
 .PHONEY:	install
 install:	$(DYNAMIC) install-headers
 	@echo "[Install Dynamic Lib]"
-	@install -m 0755 -d						$(DESTDIR)$(PREFIX)/lib
-	@install -m 0755 libwiringPi.so.$(VERSION)			$(DESTDIR)$(PREFIX)/lib/libwiringPi.so.$(VERSION)
-	@ln -sf $(DESTDIR)$(PREFIX)/lib/libwiringPi.so.$(VERSION)	$(DESTDIR)/lib/libwiringPi.so
+	@install -m 0755 -d						$(DESTDIR)$(PREFIX)/lib/wiringpi-nano
+	@install -m 0755 libwiringPi.so.$(VERSION)			$(DESTDIR)$(PREFIX)/lib/wiringpi-nano/libwiringPi.so.$(VERSION)
+	@ln -sf $(DESTDIR)$(PREFIX)/lib/libwiringPi.so.$(VERSION)	$(DESTDIR)/lib/wiringpi-nano/libwiringPi.so
 	@ldconfig
 
 .PHONEY:	install-static
 install-static:	$(STATIC) install-headers
 	@echo "[Install Static Lib]"
-	@install -m 0755 -d			$(DESTDIR)$(PREFIX)/lib
-	@install -m 0755 libwiringPi.a		$(DESTDIR)$(PREFIX)/lib
+	@install -m 0755 -d			$(DESTDIR)$(PREFIX)/lib/wiringpi-nano
+	@install -m 0755 libwiringPi.a		$(DESTDIR)$(PREFIX)/lib/wiringpi-nano
 
 .PHONEY:	uninstall
 uninstall:
@@ -161,7 +161,7 @@ uninstall:
 	@rm -f $(DESTDIR)$(PREFIX)/include/pcf8574.h
 	@rm -f $(DESTDIR)$(PREFIX)/include/pcf8591.h
 	@rm -f $(DESTDIR)$(PREFIX)/include/sn3218.h
-	@rm -f $(DESTDIR)$(PREFIX)/lib/libwiringPi.*
+	@rm -f $(DESTDIR)$(PREFIX)/lib/wiringpi-nano/libwiringPi.*
 	@ldconfig
 
 

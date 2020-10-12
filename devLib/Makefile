@@ -92,16 +92,16 @@ install-headers:
 .PHONEY:	install
 install:	$(DYNAMIC) install-headers
 	@echo "[Install Dynamic Lib]"
-	@install -m 0755 -d						$(DESTDIR)$(PREFIX)/lib
-	@install -m 0755 libwiringPiDev.so.$(VERSION)			$(DESTDIR)$(PREFIX)/lib/libwiringPiDev.so.$(VERSION)
-	@ln -sf $(DESTDIR)$(PREFIX)/lib/libwiringPiDev.so.$(VERSION)	$(DESTDIR)/lib/libwiringPiDev.so
+	@install -m 0755 -d						$(DESTDIR)$(PREFIX)/lib/wiringpi-nano
+	@install -m 0755 libwiringPiDev.so.$(VERSION)			$(DESTDIR)$(PREFIX)/lib/wiringpi-nano/libwiringPiDev.so.$(VERSION)
+	@ln -sf $(DESTDIR)$(PREFIX)/lib/wiringpi-nano/libwiringPiDev.so.$(VERSION)	$(DESTDIR)/lib/wiringpi-nano/libwiringPiDev.so
 	@ldconfig
 
 .PHONEY:	install-static
 install-static:	$(STATIC) install-headers
 	@echo "[Install Static Lib]"
-	@install -m 0755 -d			$(DESTDIR)$(PREFIX)/lib
-	@install -m 0755 libwiringPiDev.a	$(DESTDIR)$(PREFIX)/lib
+	@install -m 0755 -d			$(DESTDIR)$(PREFIX)/lib/wiringpi-nano
+	@install -m 0755 libwiringPiDev.a	$(DESTDIR)$(PREFIX)/lib/wiringpi-nano
 
 .PHONEY:	uninstall
 uninstall:
@@ -114,7 +114,7 @@ uninstall:
 	@rm -f $(DESTDIR)$(PREFIX)/include/lcd128x64.h
 	@rm -f $(DESTDIR)$(PREFIX)/include/lcd.h
 	@rm -f $(DESTDIR)$(PREFIX)/include/piGlow.h
-	@rm -f $(DESTDIR)$(PREFIX)/lib/libwiringPiDev.*
+	@rm -f $(DESTDIR)$(PREFIX)/lib/wiringpi-nano/libwiringPiDev.*
 	@ldconfig
 
 
