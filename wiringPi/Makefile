@@ -124,7 +124,7 @@ install:	$(DYNAMIC) install-headers
 	@echo "[Install Dynamic Lib]"
 	@install -m 0755 -d						$(DESTDIR)$(PREFIX)/lib/wiringpi-nano
 	@install -m 0755 libwiringPi.so.$(VERSION)			$(DESTDIR)$(PREFIX)/lib/wiringpi-nano/libwiringPi.so.$(VERSION)
-	@ln -sf $(DESTDIR)$(PREFIX)/lib/libwiringPi.so.$(VERSION)	$(DESTDIR)/lib/wiringpi-nano/libwiringPi.so
+	@ln -sf $(DESTDIR)$(PREFIX)/lib/wiringpi-nano/libwiringPi.so.$(VERSION)	$(DESTDIR)/lib/wiringpi-nano/libwiringPi.so
 	@ldconfig
 
 .PHONEY:	install-static
