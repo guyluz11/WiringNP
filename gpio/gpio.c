@@ -55,7 +55,7 @@ extern void doPins       (void) ;
 
 #define	VERSION			"2.20"
 #define	PI_USB_POWER_CONTROL	38
-#define	I2CDETECT		"/usr/sbin/i2cdetect"
+#define	I2CDETECT		"/$(SNAPCRAFT_PART_INSTALL)/usr/sbin/i2cdetect"
 
 int wpMode ;
 

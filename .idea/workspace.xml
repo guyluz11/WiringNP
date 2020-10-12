@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2abdcb77-db76-4ec5-930a-f772787567bb" name="Default Changelist" comment="Removed $SNAPCRAFT_PART_INSTALL text">
+    <list default="true" id="2abdcb77-db76-4ec5-930a-f772787567bb" name="Default Changelist" comment="Moved dir $(SNAPCRAFT_PART_INSTALL)/usr/lib to $(SNAP)/lib/wiringpi-nano">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INSTALL" beforeDir="false" afterPath="$PROJECT_DIR$/INSTALL" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/BProTest/lnIOBoard" beforeDir="false" afterPath="$PROJECT_DIR$/examples/BProTest/lnIOBoard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/BProTest/testLedCon6.c" beforeDir="false" afterPath="$PROJECT_DIR$/examples/BProTest/testLedCon6.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/Gertboard/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Gertboard/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/PiFace/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PiFace/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/PiGlow/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PiGlow/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/q2w/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/q2w/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/speed.c" beforeDir="false" afterPath="$PROJECT_DIR$/examples/speed.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpio/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/gpio/gpio.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiringPi/wiringPi.c" beforeDir="false" afterPath="$PROJECT_DIR$/wiringPi/wiringPi.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +78,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600280946066</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved dir $(SNAPCRAFT_PART_INSTALL)/usr/lib to $(SNAP)/lib/wiringpi-nano">
+      <created>1602443288431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602443288431</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -91,33 +105,39 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="adding $SNAPCRAFT_PART_INSTALL to path" />
     <MESSAGE value="Removed double $SNAPCRAFT_PART_INSTALL text" />
     <MESSAGE value="Removed $SNAPCRAFT_PART_INSTALL text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed $SNAPCRAFT_PART_INSTALL text" />
+    <MESSAGE value="Moved dir $(SNAPCRAFT_PART_INSTALL)/usr/lib to $(SNAP)/lib/wiringpi-nano" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved dir $(SNAPCRAFT_PART_INSTALL)/usr/lib to $(SNAP)/lib/wiringpi-nano" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="36" y="15" width="1878" height="1080" key="CommitChangelistDialog2" timestamp="1602443186704">
-      <screen x="0" y="15" width="1680" height="1050" />
+    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2" timestamp="1602502356154">
+      <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="36" y="15" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1602443186704" />
-    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600280970687" />
+    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1602443288296" />
+    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1602502356154" />
     <state x="618" y="39" key="CommitChangelistDialog2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184490097" />
-    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog" timestamp="1600246417822">
+    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog" timestamp="1602502188429">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="139" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1600245685957" />
-    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600246417822" />
-    <state x="2225" y="260" key="Vcs.Push.Dialog.v2" timestamp="1600280968604">
-      <screen x="1680" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2225" y="260" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600280968604" />
-    <state x="581" y="260" key="Vcs.Push.Dialog.v2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184512608" />
-    <state x="537" y="268" width="735" height="605" key="find.popup" timestamp="1602443191662">
+    <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1602502188429" />
+    <state x="477" y="268" key="Vcs.Push.Dialog.v2" timestamp="1602443296265">
       <screen x="0" y="15" width="1680" height="1050" />
     </state>
+    <state x="477" y="268" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1602443296265" />
+    <state x="2225" y="260" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600280968604" />
+    <state x="581" y="260" key="Vcs.Push.Dialog.v2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184512608" />
+    <state x="2287" y="335" width="840" height="622" key="find.popup" timestamp="1602502425378">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
     <state x="537" y="268" width="735" height="605" key="find.popup/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1602443191662" />
-    <state x="2294" y="260" width="840" height="622" key="find.popup/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1600282059188" />
+    <state x="2287" y="335" width="840" height="622" key="find.popup/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1602502425378" />
     <state x="648" y="260" width="818" height="622" key="find.popup/50.0.1870.1080@50.0.1870.1080" timestamp="1600184401791" />
     <state x="503" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1600245479457">
       <screen x="0" y="15" width="1680" height="1050" />

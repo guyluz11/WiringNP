@@ -8,10 +8,10 @@
 #DEBUG	= -g -O0
 DEBUG	= -O3
 CC	= gcc
-INCLUDE	= -I/usr/local/include
+INCLUDE	= -I/$(SNAPCRAFT_PART_INSTALL)/usr/local/include
 CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe
 
-LDFLAGS	= -L/$(SNAP)/lib/wiringpi-nano
+LDFLAGS	= -L/$(SNAPCRAFT_PART_INSTALL)/lib/wiringpi-nano
 LDLIBS    = -lwiringPi -lwiringPiDev -lpthread -lm
 
 # Should not alter anything below this line

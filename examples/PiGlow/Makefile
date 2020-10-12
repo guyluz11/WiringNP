@@ -26,10 +26,10 @@
 #DEBUG	= -g -O0
 DEBUG	= -O3
 CC	= gcc
-INCLUDE	= -I/usr/local/include
+INCLUDE	= -I/$(SNAPCRAFT_PART_INSTALL)/usr/local/include
 CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe
 
-LDFLAGS	= -L/$(SNAP)/lib/wiringpi-nano
+LDFLAGS	= -L/$(SNAPCRAFT_PART_INSTALL)/lib/wiringpi-nano
 LDLIBS    = -lwiringPi -lwiringPiDev -lpthread -lm
 
 # Should not alter anything below this line
@@ -68,9 +68,9 @@ tags:	$(SRC)
 	@ctags $(SRC)
 
 install:	piglow
-	@echo Installing piglow into /usr/local/bin
-	@cp -a piglow /usr/local/bin/piglow
-	@chmod 755 /usr/local/bin/piglow
+	@echo Installing piglow into /$(SNAPCRAFT_PART_INSTALL)/usr/local/bin
+	@cp -a piglow /$(SNAPCRAFT_PART_INSTALL)/usr/local/bin/piglow
+	@chmod 755 /$(SNAPCRAFT_PART_INSTALL)/usr/local/bin/piglow
 	@echo Done. Remember to load the I2C drivers!
 
 depend:
