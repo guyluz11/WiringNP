@@ -24,7 +24,7 @@
 #################################################################################
 
 DESTDIR=/$(SNAPCRAFT_PART_INSTALL)/usr
-PREFIX=/$(SNAPCRAFT_PART_INSTALL)/local
+PREFIX=/local
 
 #DEBUG	= -g -O0
 DEBUG	= -O2
