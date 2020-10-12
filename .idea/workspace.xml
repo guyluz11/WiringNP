@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2abdcb77-db76-4ec5-930a-f772787567bb" name="Default Changelist" comment="Replacing (SNAPCRAFT_PART_INSTALL) to (SNAP)">
+    <list default="true" id="2abdcb77-db76-4ec5-930a-f772787567bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INSTALL" beforeDir="false" afterPath="$PROJECT_DIR$/INSTALL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/BProTest/lnIOBoard" beforeDir="false" afterPath="$PROJECT_DIR$/examples/BProTest/lnIOBoard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/PiGlow/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PiGlow/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gpio/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/gpio/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602503979607</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Replacing (SNAP) to (SNAP_DATA)">
+      <created>1602513179184</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602513179184</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -134,28 +138,29 @@
     <MESSAGE value="Adding $(SNAPCRAFT_PART_INSTALL) before all /user path" />
     <MESSAGE value="Changing destination of gpio executable to $(SNAPCRAFT_PART_INSTALL)" />
     <MESSAGE value="Replacing (SNAPCRAFT_PART_INSTALL) to (SNAP)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replacing (SNAPCRAFT_PART_INSTALL) to (SNAP)" />
+    <MESSAGE value="Replacing (SNAP) to (SNAP_DATA)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replacing (SNAP) to (SNAP_DATA)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2" timestamp="1602503983814">
+    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2" timestamp="1602513179122">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1602443288296" />
-    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1602503983814" />
+    <state x="1722" y="0" width="1878" height="1080" key="CommitChangelistDialog2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1602513179122" />
     <state x="618" y="39" key="CommitChangelistDialog2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184490097" />
     <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog" timestamp="1602512012462">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="139" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1600245685957" />
     <state x="1826" y="90" width="1678" height="894" key="DiffContextDialog/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1602512012462" />
-    <state x="2225" y="260" key="Vcs.Push.Dialog.v2" timestamp="1602503985634">
+    <state x="2225" y="260" key="Vcs.Push.Dialog.v2" timestamp="1602513181915">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="477" y="268" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@0.15.1680.1050" timestamp="1602443296265" />
-    <state x="2225" y="260" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1602503985634" />
+    <state x="2225" y="260" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.15.1680.1050@1680.0.1920.1080" timestamp="1602513181915" />
     <state x="581" y="260" key="Vcs.Push.Dialog.v2/50.0.1870.1080@50.0.1870.1080" timestamp="1600184512608" />
     <state x="2286" y="335" width="840" height="622" key="find.popup" timestamp="1602513151888">
       <screen x="1680" y="0" width="1920" height="1080" />

@@ -65,6 +65,7 @@ tags:	$(SRC)
 .PHONY:	install
 install:
 	@echo "[Install]"
+	@echo "$(DESTDIR)$(PREFIX)/bin"
 	@mkdir -p		$(DESTDIR)$(PREFIX)/bin
 	@cp gpio		$(DESTDIR)$(PREFIX)/bin
 	@chown root.root	$(DESTDIR)$(PREFIX)/bin/gpio
