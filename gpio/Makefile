@@ -23,7 +23,7 @@
 #    along with wiringPi.  If not, see <http://www.gnu.org/licenses/>.
 #################################################################################
 
-DESTDIR=/$(SNAPCRAFT_PART_INSTALL)/usr
+DESTDIR=/$(SNAP)/usr
 PREFIX=/local
 
 #DEBUG	= -g -O0

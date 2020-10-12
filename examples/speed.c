@@ -86,7 +86,7 @@ int main (void)
 
 // Switch to SYS mode:
 
-  system ("/$(SNAPCRAFT_PART_INSTALL)/usr/local/bin/gpio export 17 out") ;
+  system ("/$(SNAP)/usr/local/bin/gpio export 17 out") ;
   printf ("\n/sys/class/gpio method: (%8d iterations)\n", SLOW_COUNT) ;
   wiringPiSetupSys () ;
   speedTest (17, SLOW_COUNT) ;

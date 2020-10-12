@@ -135,7 +135,7 @@ struct wiringPiNodeStruct *wiringPiNodes = NULL;
 #define GPIO_PWM          (BCM2708_PERI_BASE + 0x0020C000)
 
 #define PAGE_SIZE  (4*1024)
-// Since BLOCK_SIZE is defined in /$(SNAPCRAFT_PART_INSTALL)/usr/include/linux/fs.h:
+// Since BLOCK_SIZE is defined in /$(SNAP)/usr/include/linux/fs.h:
 #ifdef BLOCK_SIZE
 #undef BLOCK_SIZE
 #endif
