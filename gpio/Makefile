@@ -23,8 +23,8 @@
 #    along with wiringPi.  If not, see <http://www.gnu.org/licenses/>.
 #################################################################################
 
-DESTDIR=/usr
-PREFIX=/local
+DESTDIR=/$(SNAPCRAFT_PART_INSTALL)/usr
+PREFIX=/$(SNAPCRAFT_PART_INSTALL)/local
 
 #DEBUG	= -g -O0
 DEBUG	= -O2
