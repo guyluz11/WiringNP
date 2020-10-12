@@ -26,10 +26,10 @@
 #DEBUG	= -g -O0
 DEBUG	= -O3
 CC	= gcc
-INCLUDE	= -I/$(SNAP)/usr/local/include
+INCLUDE	= -I/$(SNAP_DATA)/usr/local/include
 CFLAGS	= $(DEBUG) -Wall $(INCLUDE) -Winline -pipe
 
-LDFLAGS	= -L/$(SNAP)/lib/wiringpi-nano
+LDFLAGS	= -L/$(SNAP_DATA)/lib/wiringpi-nano
 LDLIBS    = -lwiringPi -lwiringPiDev -lpthread -lm
 
 ###############################################################################

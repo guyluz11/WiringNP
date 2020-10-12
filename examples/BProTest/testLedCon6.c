@@ -122,7 +122,7 @@ void bprTbExportAllPin(void)
 	 
 	 for(sysPin=1; sysPin <= SYS_EXPORT_PIN; sysPin++)  /*echo 0 > export ->invalid argument*/
 	 {
-	 	 snprintf(cmdstr, 80, "/$(SNAP)/usr/local/bin/gpio export %d out", sysPin);
+	 	 snprintf(cmdstr, 80, "/$(SNAP_DATA)/usr/local/bin/gpio export %d out", sysPin);
 		 system(cmdstr);
 	 }
 }

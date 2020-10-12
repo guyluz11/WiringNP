@@ -23,7 +23,7 @@
 #    along with wiringPi.  If not, see <http://www.gnu.org/licenses/>.
 #################################################################################
 
-DESTDIR=/$(SNAP)/usr
+DESTDIR=/$(SNAP_DATA)/usr
 PREFIX=/local
 
 #DEBUG	= -g -O0
@@ -65,6 +65,7 @@ tags:	$(SRC)
 .PHONY:	install
 install:
 	@echo "[Install]"
+	@mkdir -p		$(DESTDIR)$(PREFIX)/bin
 	@cp gpio		$(DESTDIR)$(PREFIX)/bin
 	@chown root.root	$(DESTDIR)$(PREFIX)/bin/gpio
 	@chmod 4755		$(DESTDIR)$(PREFIX)/bin/gpio

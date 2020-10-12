@@ -10,10 +10,10 @@ that should do a complete install or upgrade of wiringPi for you.
 
 That will install a dynamic library.
 
-Some distributions do not have /$(SNAP)/lib/wiringpi-nano in the default LD_LIBRARY_PATH. To
+Some distributions do not have /$(SNAP_DATA)/lib/wiringpi-nano in the default LD_LIBRARY_PATH. To
 fix this, you need to edit /etc/ld.so.conf and add in a single line:
 
-  /$(SNAP)/lib/wiringpi-nano
+  /$(SNAP_DATA)/lib/wiringpi-nano
 
 then run the ldconfig command.
 
